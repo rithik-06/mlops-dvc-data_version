@@ -10,8 +10,8 @@ data = {'Name' : ['alice', 'bob', 'joy'],
 df = pd.DataFrame(data)
 
 ## Adding new roe to df for v2
-## new_row_loc = {'name: "v2", 'age': '20', 'city':city1 }
-# df.loc[len(df.index)] = new_row_loc
+new_row_loc = {'Name': "GF1", 'Age': '20', 'City': 'city1' }
+df.loc[len(df.index)] = new_row_loc
 
 ## adding new row to df for v3
 # new_row_loc2 = """"""""""""""""""""
